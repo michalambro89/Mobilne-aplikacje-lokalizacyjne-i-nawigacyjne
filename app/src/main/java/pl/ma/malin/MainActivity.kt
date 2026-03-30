@@ -1,4 +1,6 @@
 package pl.ma.malin
+import BeaconDataSource
+import MainViewModel
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,9 +17,7 @@ import androidx.compose.runtime.collectAsState
 
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
-import pl.ma.malin.data.dataSources.BeaconDataSource
 import pl.ma.malin.domain.model.Beacon
-import pl.ma.malin.ui.MainViewModel
 import pl.ma.malin.ui.theme.MALINTheme
 
 class MainActivity : ComponentActivity() {
